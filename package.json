@@ -1,0 +1,51 @@
+{
+  "name": "rsk-block-clock-svg-nft-demo",
+  "version": "0.0.1",
+  "description": "NFT which renders animated SVG based on block numbers from both layer 1 and layer 2",
+  "main": "truffle console --network regtest",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "truffle compile",
+    "test": "truffle test",
+    "deploy": "truffle migrate",
+    "testnet": "truffle console --network testnet",
+    "regtest": "truffle console --network regtest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bguiz/rsk-block-clock-nft-demo.git"
+  },
+  "keywords": [
+    "svg",
+    "dapp",
+    "rsk",
+    "bitcoin",
+    "erc20",
+    "erc721",
+    "erc165",
+    "nft",
+    "rif"
+  ],
+  "author": "Brendan Graetz, Aleksandr Shenshin",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bguiz/rsk-block-clock-nft-demo/issues"
+  },
+  "homepage": "https://github.com/bguiz/rsk-block-clock-nft-demo#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.0"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.0"
+  }
+}

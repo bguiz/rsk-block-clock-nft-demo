@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+package-lock.json
+.secret
+/logs
+.minimum-gas-price-mainnet.json
+.minimum-gas-price-testnet.json
