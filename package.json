@@ -46,6 +46,7 @@
     "prettier": "^2.4.0"
   },
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.5.0"
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "@openzeppelin/contracts": "^4.3.2"
   }
 }
